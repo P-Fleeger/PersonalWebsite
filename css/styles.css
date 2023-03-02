@@ -1,3 +1,4 @@
+/* Main */
 body {
     margin: 0;
 }
@@ -12,35 +13,45 @@ p {
     line-height: 2;
 }
 
-.topDiv {
-    color: #DEEEEA;
+/* Sections */
+.myTitle {
     text-align: center;
-    position: relative;
-    height: 300px;
+    color: #BF1363;
+    background-color: aqua;
+    padding-bottom: 50px;
 }
 
-.topCloud {
-    position: absolute;
+/* Nav Bar */
+.nav-item {
+    color: #BF1363;
+}
+
+.nav-link {
+    color: #BF1363;
+}
+
+/* Images */
+.backgroundImage {
+    position:absolute;
+    z-index: 1;
+}
+.botCloud {
+    position: relative;
     left: 33%;
 }
 
-.bottomCloud {
-    position: absolute;
-    right: 20%;
+.topCloud {
+    position: relative;
+    right: 33%;
 }
 
-.background {
-    width: 100%;
-    height: 700px;
-}
-
-.centered {
-    position: absolute;
-    top: 20%;
-    width: 100%;
-    text-align: center;
+/* Titles */
+.bigHead {
+    font-size: 4rem;
+    font-weight: 900;
 }
 
 .programmer {
     font-size: 2rem;
+    font-weight: 800;
 }
