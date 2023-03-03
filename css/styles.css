@@ -13,6 +13,23 @@ p {
     line-height: 2;
 }
 
+hr {
+    background-color: white;
+    border-color: aqua;
+    border-style: dotted;
+    border-width: 0 0 10px 0;
+    margin: .5rem;
+    
+}
+
+.topHr {
+    border-color: white;
+    background-color: white;
+    border-style: dotted;
+    border-width: 0 0 10px 0;
+    margin: 0;
+}
+
 /* Sections */
 .myTitle {
     text-align: center;
@@ -21,9 +38,29 @@ p {
     padding-bottom: 50px;
 }
 
-.skills {
+#education {
+    padding: 50px;
+    text-align: center;
+    background-color: aqua;
+}
+
+#skills {
+    padding: 50px;
     text-align: center;
 }
+
+#newStuff {
+    text-align: center;
+    background-color: aqua;
+    padding: 50px 50px;
+}
+
+
+#workHistory {
+    text-align: center;
+    padding: 50px 50px;
+}
+
 
 /* Nav Bar */
 .nav-item {
@@ -60,13 +97,13 @@ p {
     font-weight: 800;
 }
 
-.song {
-    text-align: center;
+.edTitle {
+    font-size: 2rem;
+    padding-bottom: 25px;
 }
 
-#newStuff {
+.song {
     text-align: center;
-    background-color: aqua;
 }
 
 .characterRow {
@@ -75,4 +112,23 @@ p {
 
 #newStuff {
     padding-bottom: 50px;
+}
+
+.disclaimer {
+    font-size: .66rem;
+}
+
+.workHead {
+    font-size: 1.5rem;
+}
+
+#cta {
+    text-align: center;
+    background-color: aqua;
+    padding: 50px 0 50px 0;
+}
+
+#footer {
+    text-align: center;
+    padding: 10px;
 }
