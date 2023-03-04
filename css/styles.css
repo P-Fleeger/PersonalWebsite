@@ -5,7 +5,6 @@ body {
 
 h1 {
     font-size: 4.6875rem;
-    margin: 100px auto 0 auto;
     color: #BF1363;
 }
 
@@ -30,6 +29,9 @@ hr {
     margin: 0;
 }
 
+.card {
+margin-top: 50px;
+}
 /* Sections */
 .myTitle {
     text-align: center;
@@ -55,10 +57,25 @@ hr {
     padding: 50px 50px;
 }
 
+#musicSlide {
+    text-align: center;
+    background-color: aqua;
+    padding: 50px 50px;
+}
+
+#artSlide {
+    text-align: center;
+    background-color: orange;
+    padding: 50px 50px;
+}
 
 #workHistory {
     text-align: center;
     padding: 50px 50px;
+}
+
+.workRow {
+    padding-top: 50px;
 }
 
 
@@ -90,6 +107,7 @@ hr {
 .bigHead {
     font-size: 4rem;
     font-weight: 900;
+    margin: 100px auto 0 auto;
 }
 
 .programmer {
@@ -131,4 +149,8 @@ hr {
 #footer {
     text-align: center;
     padding: 10px;
+}
+
+#completeWorkHistory {
+    padding: 50px 50px;
 }
