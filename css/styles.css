@@ -1,33 +1,41 @@
 /* Main */
 body {
     margin: 0;
+    font-family: 'Lora', serif;
 }
 
-h1 {
+.fullPortfolio {
     font-size: 4.6875rem;
-    color: #BF1363;
+    background-color: #38708F;
+    padding-left: 2%;
+    margin: 0;
+}
+
+.fullWorkHistory {
+    font-size: 4.6875rem;
+    background-color: #38708F;
+    padding-left: 2%;
+    margin: 0;
 }
 
 p {
     line-height: 2;
 }
 
-hr {
-    background-color: white;
-    border-color: aqua;
-    border-style: dotted;
-    border-width: 0 0 10px 0;
-    margin: .5rem;
-    
+
+.subText {
+    padding: 25px 0;
+    color: #BFBA13;
 }
 
-.topHr {
-    border-color: white;
-    background-color: white;
-    border-style: dotted;
-    border-width: 0 0 10px 0;
+hr {
+    border-top: 10px;
+    border-style: solid;
+    border-color: #BFBA13;
     margin: 0;
+    opacity: 69%;
 }
+
 
 .card {
 margin-top: 50px;
@@ -35,57 +43,74 @@ margin-top: 50px;
 /* Sections */
 .myTitle {
     text-align: center;
-    color: #BF1363;
-    background-color: aqua;
+    color: #FCF738;
+    background-color: #0090DB;
     padding-bottom: 50px;
 }
 
 #education {
     padding: 50px;
     text-align: center;
-    background-color: aqua;
+    background-color: #0090DB;
 }
 
 #skills {
     padding: 50px;
     text-align: center;
+    background-color: #38708F;
 }
 
 #newStuff {
     text-align: center;
-    background-color: aqua;
+    background-color: #0090DB;
     padding: 50px 50px;
+    color: #DB1D2A;
+    font-weight: 600;
+    font-size: 1.33rem;
 }
 
 #musicSlide {
     text-align: center;
-    background-color: aqua;
+    background-color: #38708F;
     padding: 50px 50px;
 }
 
 #artSlide {
     text-align: center;
-    background-color: orange;
+    background-color: #BFBA13;
     padding: 50px 50px;
 }
 
 #workHistory {
     text-align: center;
     padding: 50px 50px;
+    background-color: #38708F;
 }
+
 
 .workRow {
     padding-top: 50px;
 }
 
 
-/* Nav Bar */
+.navbar {
+    padding: .5rem 0 .5rem;
+}
+
+.navbar-nav {
+    text-align: center;
+}
+
+
 .nav-item {
-    color: #BF1363;
+    padding: 0 18px;
+    font-weight: 600;
+    color: #DB1D2A;
 }
 
 .nav-link {
-    color: #BF1363;
+    color: #DB1D2A;
+    font-weight: 600;
 }
 
 /* Images */
@@ -105,19 +130,46 @@ margin-top: 50px;
 
 /* Titles */
 .bigHead {
-    font-size: 4rem;
-    font-weight: 900;
+    font-size: 4.6875rem;
+    font-weight: 700;
+    font-style: italic;
     margin: 100px auto 0 auto;
+    color: #DB1D2A;
 }
 
 .programmer {
     font-size: 2rem;
-    font-weight: 800;
+    font-weight: 600;
+    
+}
+
+.portfolioName {
+    color: #DB1D2A;
+    font-weight: 700;
 }
 
 .edTitle {
-    font-size: 2rem;
-    padding-bottom: 25px;
+    font-size: 2.5rem;
+    padding-bottom: 50px;
+    color: #DB1D2A;
+    font-weight: 600;
+}
+
+.skillsTitle {
+    font-size: 2.5rem;
+    padding-bottom: 50px;
+    color: #DB1D2A;
+}
+
+.featureText {
+    color: #FCF738;
+}
+
+.newText {
+    color: #DB1D2A;
+    font-weight: 700;
+    font-size: 2.5rem;
+    padding-bottom: 50px;
 }
 
 .song {
@@ -136,14 +188,24 @@ margin-top: 50px;
     font-size: .66rem;
 }
 
+.workHeading {
+    font-size: 2.5rem;
+    color: #DB1D2A;
+    font-weight: 600;
+}
+
 .workHead {
     font-size: 1.5rem;
+}
+.descriptionText {
+color: #BFBA13;
 }
 
 #cta {
     text-align: center;
-    background-color: aqua;
+    background-color: #38708F;
     padding: 50px 0 50px 0;
+    color: #FCF738;
 }
 
 #footer {
@@ -153,4 +215,9 @@ margin-top: 50px;
 
 #completeWorkHistory {
     padding: 50px 50px;
+    background-color: #38708F;
+}
+
+a {
+    color:#DB1D2A
 }
