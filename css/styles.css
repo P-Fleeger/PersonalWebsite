@@ -26,6 +26,8 @@ p {
 .subText {
     padding: 25px 0;
     color: #BFBA13;
+    font-weight: 400;
+    font-size: 1.1rem;
 }
 
 hr {
@@ -64,7 +66,7 @@ margin-top: 50px;
     text-align: center;
     background-color: #0090DB;
     padding: 50px 50px;
-    color: #DB1D2A;
+    color: #A30013;
     font-weight: 600;
     font-size: 1.33rem;
 }
@@ -105,11 +107,11 @@ margin-top: 50px;
 .nav-item {
     padding: 0 18px;
     font-weight: 600;
-    color: #DB1D2A;
+    color: #A30013;
 }
 
 .nav-link {
-    color: #DB1D2A;
+    color: #A30013;
     font-weight: 600;
 }
 
@@ -134,7 +136,7 @@ margin-top: 50px;
     font-weight: 700;
     font-style: italic;
     margin: 100px auto 0 auto;
-    color: #DB1D2A;
+    color: #A30013;
 }
 
 .programmer {
@@ -144,21 +146,29 @@ margin-top: 50px;
 }
 
 .portfolioName {
-    color: #DB1D2A;
+    color: #A30013;
     font-weight: 700;
 }
 
 .edTitle {
     font-size: 2.5rem;
     padding-bottom: 50px;
-    color: #DB1D2A;
+    color: #A30013;
     font-weight: 600;
 }
 
 .skillsTitle {
     font-size: 2.5rem;
     padding-bottom: 50px;
-    color: #DB1D2A;
+    color: #A30013;
+    font-weight:  600;
+}
+
+.featureWork {
+    font-size: 2.5rem;
+    padding-bottom: 50px;
+    color: #A30013;
+    font-weight:  600;
 }
 
 .featureText {
@@ -166,9 +176,9 @@ margin-top: 50px;
 }
 
 .newText {
-    color: #DB1D2A;
-    font-weight: 700;
-    font-size: 2.5rem;
+    color: #FCF738;
+    font-weight: 600;
+    font-size: 1.75rem;
     padding-bottom: 50px;
 }
 
@@ -190,7 +200,7 @@ margin-top: 50px;
 
 .workHeading {
     font-size: 2.5rem;
-    color: #DB1D2A;
+    color: #A30013;
     font-weight: 600;
 }
 
@@ -219,5 +229,5 @@ color: #BFBA13;
 }
 
 a {
-    color:#DB1D2A
+    color:#A30013
 }
