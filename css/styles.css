@@ -4,23 +4,14 @@ body {
     font-family: 'Lora', serif;
 }
 
-.fullPortfolio {
-    font-size: 4.6875rem;
-    background-color: #38708F;
-    padding-left: 2%;
-    margin: 0;
-}
-
-.fullWorkHistory {
-    font-size: 4.6875rem;
-    background-color: #38708F;
-    padding-left: 2%;
-    margin: 0;
+a {
+    color: #A30013
 }
 
 p {
     line-height: 2;
 }
+
 
 
 .subText {
@@ -38,10 +29,43 @@ hr {
     opacity: 69%;
 }
 
+.iframe {
+    text-align: center;
+}
 
 .card {
-margin-top: 50px;
+    margin-top: 50px;
 }
+
+
+
+/* Navbar */
+.navbar {
+    padding: .5rem 0 .5rem;
+    font-family: 'Lora', serif;
+}
+
+.navbar-nav {
+    text-align: center;
+}
+
+.navbar-brand {
+    font-family: 'Lora', serif;
+}
+
+.nav-item {
+    padding: 0 18px;
+    font-weight: 600;
+    color: #A30013;
+}
+
+.nav-link {
+    color: #A30013;
+    font-weight: 600;
+}
+
+
+
 /* Sections */
 .myTitle {
     text-align: center;
@@ -71,6 +95,19 @@ margin-top: 50px;
     font-size: 1.33rem;
 }
 
+#workHistory {
+    text-align: center;
+    padding: 50px 50px;
+    background-color: #38708F;
+}
+
+#cta {
+    text-align: center;
+    background-color: #38708F;
+    padding: 50px 0 50px 0;
+    color: #FCF738;
+}
+
 #musicSlide {
     text-align: center;
     background-color: #38708F;
@@ -83,52 +120,40 @@ margin-top: 50px;
     padding: 50px 50px;
 }
 
-#workHistory {
+#codeSlide {
     text-align: center;
+    background-color: #A30013;
     padding: 50px 50px;
-    background-color: #38708F;
 }
 
+#footer {
+    text-align: center;
+    padding: 10px;
+}
+
+#completeWorkHistory {
+    padding: 50px 50px 300px;
+    background-color: #38708F;
+}
 
 .workRow {
     padding-top: 50px;
 }
 
 
-.navbar {
-    padding: .5rem 0 .5rem;
-}
-
-.navbar-nav {
-    text-align: center;
-}
-
-
-.nav-item {
-    padding: 0 18px;
-    font-weight: 600;
-    color: #A30013;
-}
-
-.nav-link {
-    color: #A30013;
-    font-weight: 600;
-}
-
 /* Images */
-.backgroundImage {
-    position:absolute;
-    z-index: 1;
+.topCloud {
+    position: relative;
+    right: 33%;
+    padding-bottom: 100px;
 }
+
 .botCloud {
     position: relative;
     left: 33%;
 }
 
-.topCloud {
-    position: relative;
-    right: 33%;
-}
+
 
 /* Titles */
 .bigHead {
@@ -142,12 +167,14 @@ margin-top: 50px;
 .programmer {
     font-size: 2rem;
     font-weight: 600;
-    
+
 }
 
 .portfolioName {
     color: #A30013;
     font-weight: 700;
+    font-size: 2rem;
+    font-family: 'Lora', serif;
 }
 
 .edTitle {
@@ -161,18 +188,47 @@ margin-top: 50px;
     font-size: 2.5rem;
     padding-bottom: 50px;
     color: #A30013;
-    font-weight:  600;
+    font-weight: 600;
 }
 
 .featureWork {
     font-size: 2.5rem;
     padding-bottom: 50px;
     color: #A30013;
-    font-weight:  600;
+    font-weight: 600;
 }
 
 .featureText {
     color: #FCF738;
+}
+
+.fullPortfolio {
+    font-size: 4.6875rem;
+    background-color: #A30013;
+    padding-left: 2%;
+    margin: 0;
+    color: #FCF738;
+}
+
+.fullWorkHistory {
+    font-size: 4.6875rem;
+    background-color: #38708F;
+    padding-left: 2%;
+    margin: 0;
+    color: #FCF738;
+}
+
+.workHeading {
+    font-size: 2.5rem;
+    color: #A30013;
+    font-weight: 600;
+}
+
+
+
+/* Slides */
+.characterRow {
+    padding: 0 50px;
 }
 
 .newText {
@@ -182,52 +238,16 @@ margin-top: 50px;
     padding-bottom: 50px;
 }
 
-.song {
-    text-align: center;
-}
 
-.characterRow {
-    padding: 0 50px;
-}
-
-#newStuff {
-    padding-bottom: 50px;
-}
-
+/* Special Words */
 .disclaimer {
     font-size: .66rem;
-}
-
-.workHeading {
-    font-size: 2.5rem;
-    color: #A30013;
-    font-weight: 600;
 }
 
 .workHead {
     font-size: 1.5rem;
 }
+
 .descriptionText {
-color: #BFBA13;
-}
-
-#cta {
-    text-align: center;
-    background-color: #38708F;
-    padding: 50px 0 50px 0;
-    color: #FCF738;
-}
-
-#footer {
-    text-align: center;
-    padding: 10px;
-}
-
-#completeWorkHistory {
-    padding: 50px 50px;
-    background-color: #38708F;
-}
-
-a {
-    color:#A30013
+    color: #BFBA13;
 }
