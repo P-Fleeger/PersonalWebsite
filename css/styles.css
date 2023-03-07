@@ -101,6 +101,11 @@ hr {
     background-color: #38708F;
 }
 
+#resume {
+    text-align: center;
+    background-color: #0090DB;
+}
+
 #cta {
     text-align: center;
     background-color: #38708F;
@@ -126,6 +131,12 @@ hr {
     padding: 50px 50px;
 }
 
+#writingSlide {
+    text-align: center;
+    background-color: #0090DB;
+    padding: 50px 50px;
+}
+
 #footer {
     text-align: center;
     padding: 10px;
@@ -139,6 +150,7 @@ hr {
 .workRow {
     padding-top: 50px;
 }
+
 
 
 /* Images */
@@ -194,6 +206,13 @@ hr {
 .featureWork {
     font-size: 2.5rem;
     padding-bottom: 50px;
+    color: #A30013;
+    font-weight: 600;
+}
+
+.resumeTitle {
+    font-size: 2.5rem;
+    padding: 50px;
     color: #A30013;
     font-weight: 600;
 }
