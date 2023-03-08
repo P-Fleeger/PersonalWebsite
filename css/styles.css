@@ -12,15 +12,6 @@ p {
     line-height: 2;
 }
 
-
-
-.subText {
-    padding: 25px 0;
-    color: #BFBA13;
-    font-weight: 400;
-    font-size: 1.1rem;
-}
-
 hr {
     border-top: 10px;
     border-style: solid;
@@ -29,8 +20,23 @@ hr {
     opacity: 69%;
 }
 
-.iframe {
+iframe {
     text-align: center;
+    width: 69%;
+    height: 900px;
+}
+
+@media (max-width: 1055px) {
+
+    iframe {
+        width: 90%;
+        height: 600px;
+    }
+
+    .portfolioFrame {
+        width: 75%;
+        height: 400px
+    }
 }
 
 .card {
@@ -148,7 +154,7 @@ hr {
 }
 
 .workRow {
-    padding-top: 50px;
+    padding: 50px 100px;
 }
 
 
@@ -247,7 +253,7 @@ hr {
 
 /* Slides */
 .characterRow {
-    padding: 0 50px;
+    padding: 0 250px;
 }
 
 .newText {
@@ -269,4 +275,11 @@ hr {
 
 .descriptionText {
     color: #BFBA13;
+}
+
+.subText {
+    padding: 25px 0;
+    color: #BFBA13;
+    font-weight: 400;
+    font-size: 1.1rem;
 }
