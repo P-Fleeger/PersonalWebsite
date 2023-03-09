@@ -20,23 +20,31 @@ hr {
     opacity: 69%;
 }
 
+em {
+    color: #A30013;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
 .writingFrame {
     text-align: center;
-    width: 80%;
-    height: 900px;
+    width: 69%;
+    height: 1150px;
+    padding-bottom: 50px;
 }
 
 .portfolioFrame {
     text-align: center;
     width: 69%;
-    height: 600px;
+    height: 800px;
 }
 
 @media (max-width: 1055px) {
 
     .writingFrame {
-        width: 95%;
+        width: 80%;
         height: 700px;
+        zoom: 50%;
     }
 
     .portfolioFrame {
@@ -102,9 +110,6 @@ hr {
     text-align: center;
     background-color: #0090DB;
     padding: 50px 50px;
-    color: #A30013;
-    font-weight: 600;
-    font-size: 1.33rem;
 }
 
 #workHistory {
@@ -159,7 +164,7 @@ hr {
 }
 
 .workRow {
-    padding: 50px;
+    padding-bottom: 250px;
 }
 
 
@@ -233,25 +238,42 @@ hr {
 }
 
 .fullPortfolio {
-    font-size: 4.6875rem;
+    font-size: 7.6875rem;
     background-color: #A30013;
-    padding-left: 2%;
+    padding-bottom: 25px;
     margin: 0;
     color: #FCF738;
+    text-align: center;
 }
 
 .fullWorkHistory {
-    font-size: 4.6875rem;
+    font-size: 7.6875rem;
     background-color: #38708F;
-    padding-left: 2%;
+    padding-bottom: 25px;
     margin: 0;
     color: #FCF738;
+    text-align: center;
 }
 
 .workHeading {
     font-size: 2.5rem;
     color: #A30013;
     font-weight: 600;
+}
+
+.portfolioTitle {
+    color: #FCF738;
+    font-size: 2.75rem;
+    font-weight: 600;
+    padding-bottom: 25px;
+}
+
+.artTitle {
+    color: #A30013;
+}
+
+.writingTitle {
+    padding-top: 70px;
 }
 
 
@@ -263,7 +285,14 @@ hr {
 
 .newText {
     color: #FCF738;
-    font-weight: 600;
+    font-weight: 400;
+    font-size: 1.75rem;
+    padding-bottom: 50px;
+}
+
+.newArt {
+    color: #A30013;
+    font-weight: 400;
     font-size: 1.75rem;
     padding-bottom: 50px;
 }
@@ -287,4 +316,12 @@ hr {
     color: #BFBA13;
     font-weight: 400;
     font-size: 1.1rem;
+}
+
+.fa-solid {
+    padding: 0 10px;
+}
+
+.writingText {
+    padding-top: 50px;
 }
