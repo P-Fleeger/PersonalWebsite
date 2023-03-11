@@ -10,18 +10,19 @@ a {
 
 p {
     line-height: 2;
+    font-size: 1.2rem;
 }
 
 hr {
     border-top: 10px;
     border-style: solid;
-    border-color: #BFBA13;
+    border-color: #FCF738;
     margin: 0;
     opacity: 69%;
 }
 
 em {
-    color: #A30013;
+    color: #BFBA13;
     font-weight: 600;
     font-size: 1.1rem;
 }
@@ -29,32 +30,32 @@ em {
 .writingFrame {
     text-align: center;
     width: 69%;
-    height: 1150px;
+    height: 900px;
     padding-bottom: 50px;
 }
 
 .portfolioFrame {
     text-align: center;
     width: 69%;
-    height: 800px;
+    height: 700px;
 }
 
 @media (max-width: 1055px) {
 
     .writingFrame {
         width: 80%;
-        height: 700px;
-        zoom: 50%;
+        height: 650px
     }
 
     .portfolioFrame {
         width: 75%;
-        height: 400px
+        height: 500px
     }
 }
 
 .card {
     margin-top: 50px;
+    font-family: 'Lora', serif;
 }
 
 
@@ -164,7 +165,7 @@ em {
 }
 
 .workRow {
-    padding-bottom: 250px;
+    padding-bottom: 100px;
 }
 
 
@@ -238,18 +239,20 @@ em {
 }
 
 .fullPortfolio {
-    font-size: 7.6875rem;
+    font-size: 5.6875rem;
     background-color: #A30013;
     padding-bottom: 25px;
+    padding-top: 50px;
     margin: 0;
     color: #FCF738;
     text-align: center;
 }
 
 .fullWorkHistory {
-    font-size: 7.6875rem;
+    font-size: 5.6875rem;
     background-color: #38708F;
     padding-bottom: 25px;
+    padding-top: 50px;
     margin: 0;
     color: #FCF738;
     text-align: center;
@@ -261,9 +264,13 @@ em {
     font-weight: 600;
 }
 
+.workDate {
+    font-weight: 600;
+}
+
 .portfolioTitle {
     color: #FCF738;
-    font-size: 2.75rem;
+    font-size: 2.5rem;
     font-weight: 600;
     padding-bottom: 25px;
 }
@@ -273,7 +280,7 @@ em {
 }
 
 .writingTitle {
-    padding-top: 70px;
+    padding-top: 50px;
 }
 
 
@@ -300,11 +307,12 @@ em {
 
 /* Special Words */
 .disclaimer {
-    font-size: .66rem;
+    font-size: .85rem;
 }
 
 .workHead {
-    font-size: 1.5rem;
+    font-size: 2rem;
+    font-weight: 600
 }
 
 .descriptionText {
@@ -324,4 +332,6 @@ em {
 
 .writingText {
     padding-top: 50px;
+    font-weight: 400;
+    font-size: 2.2rem;
 }
