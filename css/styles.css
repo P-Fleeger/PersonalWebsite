@@ -335,3 +335,46 @@ em {
     font-weight: 400;
     font-size: 2.2rem;
 }
+
+.animePic {
+    width: 40%;
+    margin: auto;
+}
+
+.tankPic {
+    width: 40%;
+    margin: auto;
+}
+
+.trollPic {
+    width: 40%;
+    margin: auto;
+}
+
+.cloudPic {
+    width: 50%;
+    margin: auto;
+}
+
+@media (max-width: 1055px) {
+
+    .tankPic {
+        width: 80%;
+        margin: auto;
+    }
+    
+    .animePic {
+        width: 80%;
+        margin: auto;
+    }
+   
+    .trollPic {
+        width: 80%;
+        margin: auto;
+    }
+
+    .cloudPic {
+        width: 80%;
+        margin: auto;
+    }
+}
